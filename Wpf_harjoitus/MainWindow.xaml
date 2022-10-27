@@ -1,0 +1,15 @@
+﻿<Window x:Class="Wpf_harjoitus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_harjoitus"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="315,264,0,0" VerticalAlignment="Top" Height="87" Width="153" Click="Button_Click"/>
+        <TextBox x:Name="Laatikko1" HorizontalAlignment="Left" Margin="104,94,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="178" Height="52"/>
+        <TextBox x:Name="Laatikko2" HorizontalAlignment="Left" Margin="502,94,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="165" Height="51"/>
+
+    </Grid>
+</Window>
